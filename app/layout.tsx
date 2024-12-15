@@ -1,16 +1,16 @@
 "use client";
 
 import "./globals.css";
-import { Space_Mono } from "next/font/google";
+import { Source_Code_Pro } from "next/font/google";
 import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-const spaceMono = Space_Mono({
+const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-space-mono",
+  variable: "--font-source-code-pro",
 });
 
 function Navigation() {
@@ -33,7 +33,7 @@ function Navigation() {
         <div className="">
           <motion.div
             animate={{ rotate: isOpen ? -180 : 0, y: isOpen ? 0 : 0 }}
-            className="w-36 h-36"
+            className="w-28 h-28"
           >
             <Image
               src="/images/Plane icon.png"
@@ -84,9 +84,9 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={spaceMono.className}>
+      <body className={sourceCodePro.className}>
         {/*<div className="min-h-screen bg-black flex flex-col">*/}
-          <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-grow">{children}</main>
         </div>

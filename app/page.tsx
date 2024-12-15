@@ -51,6 +51,7 @@ export default function Home() {
                   alt="Interactive Eye"
                   width={1200}
                   height={1200}
+                  unoptimized
                   className="w-full h-auto"
                   priority
                 />
