@@ -45,7 +45,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-01.png"
+              src="/images/image-01.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -82,7 +82,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-02.jpg"
+              src="/images/image-02.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -92,7 +92,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-03.png"
+              src="/images/image-03.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -102,7 +102,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-04.jpg"
+              src="/images/image-04.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -112,7 +112,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-05.jpg"
+              src="/images/image-05.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -125,7 +125,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_01.jpg"
+              src="/images/hha_01.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -154,7 +154,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_02.jpg"
+              src="/images/hha_02.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -183,7 +183,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_03.jpg"
+              src="/images/hha_03.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -213,7 +213,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_04.jpg"
+              src="/images/hha_04.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -240,7 +240,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-06.jpg"
+              src="/images/image-06.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -250,7 +250,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-07.jpg"
+              src="/images/image-07.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -263,7 +263,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_01.jpg"
+              src="/images/des_01.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -294,7 +294,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_02.jpg"
+              src="/images/des_02.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -324,7 +324,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_03.jpg"
+              src="/images/des_03.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -356,7 +356,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_04.png"
+              src="/images/des_04.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -384,7 +384,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/hkn_01.jpg"
+              src="/images/hkn_01.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -394,7 +394,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/hkn_02.jpg"
+              src="/images/hkn_02.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -404,7 +404,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/hkn_03.jpg"
+              src="/images/hkn_03.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -417,7 +417,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hkn_04.jpg"
+              src="/images/hkn_04.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -446,7 +446,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-08.jpg"
+              src="/images/image-08.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -459,7 +459,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_04.png"
+              src="/images/des_04.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -489,7 +489,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-09.jpg"
+              src="/images/image-09.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -499,7 +499,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-10.jpg"
+              src="/images/image-10.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -512,7 +512,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-11.jpg"
+              src="/images/image-11.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -538,7 +538,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-12.jpg"
+              src="/images/image-12.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -569,7 +569,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-13.jpg"
+              src="/images/image-13.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -596,7 +596,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-14.jpg"
+              src="/images/image-14.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -610,7 +610,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/yat_02.png"
+              src="/images/yat_02.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -634,7 +634,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_05.png"
+              src="/images/hha_05.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -667,7 +667,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/hha_06.jpg"
+              src="/images/hha_06.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -695,7 +695,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-15.png"
+              src="/images/image-15.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -722,7 +722,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-16.jpg"
+              src="/images/image-16.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -785,14 +785,14 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-auto flex gap-5">
             <Image
-              src="/images/image-17.jpg"
+              src="/images/image-17.webp"
               width={1920}
               height={1000}
               alt="background Image"
               className="w-1/2 h-auto"
             />
             <Image
-              src="/images/image-18.jpg"
+              src="/images/image-18.webp"
               width={1920}
               height={1000}
               alt="background Image"
@@ -803,7 +803,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-19.png"
+              src="/images/image-19.webp"
               width={1176}
               height={784}
               alt="background Image"
@@ -814,7 +814,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-20.png"
+              src="/images/image-20.webp"
               width={1176}
               height={784}
               alt="background Image"
@@ -855,7 +855,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-21.png"
+              src="/images/image-21.webp"
               fill
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -868,7 +868,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/yat_03.png"
+              src="/images/yat_03.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -902,7 +902,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-22.png"
+              src="/images/image-22.webp"
               fill
               alt="background Image"
               className="fixed-bg"
@@ -933,7 +933,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-23.png"
+              src="/images/image-23.webp"
               fill
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -943,7 +943,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-24.png"
+              src="/images/image-24.webp"
               fill
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -994,7 +994,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-25.jpg"
+              src="/images/image-25.webp"
               fill
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -1007,7 +1007,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/image-26.png"
+              src="/images/image-26.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -1037,14 +1037,14 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-auto flex gap-10">
             <Image
-              src="/images/image-27.png"
+              src="/images/image-27.webp"
               width={1920}
               height={1000}
               alt="background Image"
               className="w-2/3 h-auto"
             />
             <Image
-              src="/images/image-28.png"
+              src="/images/image-28.webp"
               width={1920}
               height={1000}
               alt="background Image"
@@ -1055,7 +1055,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
-              src="/images/image-29.png"
+              src="/images/image-29.webp"
               fill
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
@@ -1092,7 +1092,7 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-auto flex justify-center items-center gap-10">
             <Image
-              src="/images/image-30.png"
+              src="/images/image-30.webp"
               width={1920}
               height={1000}
               alt="background Image"
