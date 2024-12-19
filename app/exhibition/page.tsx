@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Exhibition() {
   useEffect(() => {
@@ -992,6 +993,23 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
+            <iframe
+              src="https://www.youtube.com/embed/dTP8qD5reM0"
+              title="When we see the planes campaign"
+              style={{
+                border: "none",
+                width: "100%",
+                height: "100%",
+                aspectRatio: "16/9",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-25.webp"
@@ -1090,6 +1108,23 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
+            <iframe
+              src="https://www.youtube.com/embed/dTP8qD5reM0"
+              title="When we see the planes campaign"
+              style={{
+                border: "none",
+                width: "100%",
+                height: "100%",
+                aspectRatio: "16/9",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-auto flex justify-center items-center gap-10">
             <Image
               src="/images/image-30.webp"
@@ -1122,12 +1157,87 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
-          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
-            <h3 className="mt-28 text-yellow-400 text-8xl text-center">
-              THE BOMB
-            </h3>
+          <div className="max-w-6xl mx-auto relative w-full flex justify-center items-center flex-col">
+            <h3 className="text-yellow-400 text-8xl text-center">THE BOMB</h3>
             <Image
               src="/images/bomb.png"
+              width={1920}
+              height={1000}
+              alt="background Image"
+              className="-mt-20"
+            />
+            <Link
+              href="/thebomb"
+              className="text-white text-2xl p-5 bg-yellow-400 rounded-xl hover:text-gray-300 transition-colors cursor-pointer"
+            >
+              see more
+            </Link>
+          </div>
+        </section>
+        <section
+          className="snap-center min-h-screen relative flex pb-9 overflow-hidden"
+          id="target-section"
+        >
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
+            <Image
+              src="/images/image-31.webp"
+              width={1900}
+              height={1000}
+              alt="background Image"
+              className="fixed-bg transition-all duration-300"
+            />
+          </div>
+          <div
+            className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+          >
+            <div className="artwork_desc p-8 w-1/2">
+              <h3 className="text-yellow-400 mb-6">
+                When We see the Planes, We see....
+              </h3>
+              <p className="mb-6">
+                Choose a color that represents your feelings about the situation
+                in Myanmar. Follow the instructions to fold a paper airplane and
+                leave it on the sky wall to become part of a collective message
+                of hope and resilence.
+              </p>
+              <h3 className="text-yellow-400">
+                When We see the Planes, We see....
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <Image
+              src="/images/image-32.webp"
+              fill
+              alt="background Image"
+              className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
+            />
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-auto flex gap-5">
+            <Image
+              src="/images/image-33.webp"
+              width={1920}
+              height={1000}
+              alt="background Image"
+              className="w-1/2 h-auto"
+            />
+            <Image
+              src="/images/image-34.webp"
+              width={1920}
+              height={1000}
+              alt="background Image"
+              className="w-1/2 h-auto"
+            />
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <Image
+              src="/images/image-35.webp"
               fill
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
