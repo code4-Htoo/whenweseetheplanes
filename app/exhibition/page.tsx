@@ -57,7 +57,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 w-1/2">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Myawaddy Township (Karen State), 20 April By Zay Yar Minn
               </h3>
               <p>
@@ -66,7 +66,7 @@ export default function Exhibition() {
               </p>
             </div>
             <div className="artwork_desc bg_dropsd p-8 text-right w-1/2">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Laiza (Mountainous Town)Kachin, October 2023 By Khun Lat
               </h3>
               <p>
@@ -137,7 +137,7 @@ export default function Exhibition() {
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 text-right w-2/3">
-              <h3 className="text-yellow-400">Loi Nam Pha Camp</h3>
+              <h3 className="text-yellow-400 sec_header">Loi Nam Pha Camp</h3>
               <p>
                 Waiting patiently for a hearty meal to receive. Conversations
                 between them: &quot;when they see the jet fighter planes, they
@@ -166,7 +166,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 w-2/3">
-              <h3 className="text-yellow-400">Loi Nam Pha Camp</h3>
+              <h3 className="text-yellow-400 sec_header">Loi Nam Pha Camp</h3>
               <p>
                 Waiting patiently for a hearty meal to receive. Conversations
                 between them: &quot;when they see the jet fighter planes, they
@@ -195,7 +195,9 @@ export default function Exhibition() {
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 text-right w-2/3">
-              <h3 className="text-yellow-400">Mese village, July 2023</h3>
+              <h3 className="text-yellow-400 sec_header">
+                Mese village, July 2023
+              </h3>
               <p>
                 Due to the Mese battle, a community has resettled deeper into
                 the forest after being displaced by conflict, and they&apos;ve
@@ -225,7 +227,9 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 w-2/3">
-              <h3 className="text-yellow-400">Lukumpgra Village, June 2023</h3>
+              <h3 className="text-yellow-400 sec_header">
+                Lukumpgra Village, June 2023
+              </h3>
               <p>
                 2 of 500-pound bombs were dropped near the owner of the pig farm
                 houses where he was sleeping and very fortunate that he
@@ -274,7 +278,7 @@ export default function Exhibition() {
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 w-2/3">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Houses that were destroyed in the village of Sita,May 15, 2023
               </h3>
               <p>
@@ -305,7 +309,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 w-2/3">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 A child searching for tinsel in the ruins of a house that was
                 destroyed by the military council army. May 13, 2023
               </h3>
@@ -335,7 +339,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 pb-10 pr-20 w-full">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 A woman fleeing the war returned after offering alms to the
                 village monastery, Si Mu Lai Village May 12, 2023
               </h3>
@@ -367,7 +371,9 @@ export default function Exhibition() {
             className={`flex items-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 w-1/2">
-              <h3 className="text-yellow-400 mb-5">Artist: Hkun Li</h3>
+              <h3 className="text-yellow-400 sec_header mb-5">
+                Artist: Hkun Li
+              </h3>
               <p>
                 Another Tragic event. Military&apos;s airstrike on the civilians
                 in Kunglaw village, Kachin State, Many children are among the
@@ -428,7 +434,9 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-10 w-full">
-              <h3 className="text-yellow-400 mb-6">Artist: Nyein Chan Aung</h3>
+              <h3 className="text-yellow-400 sec_header mb-6">
+                Artist: Nyein Chan Aung
+              </h3>
               <p>
                 At the Shan-Kayah border, in the Ban Kauk refugee camp located
                 in Hpruso Township, the military council dropped two 500-pound
@@ -470,7 +478,7 @@ export default function Exhibition() {
             className={`flex items-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 w-1/2">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 On March 24, 2023, a military plane bombed Dor Ta Ma Gyi
                 Hospital in the eastern part of Demoso. Karenni state by YAT
               </h3>
@@ -523,7 +531,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-10 w-1/2">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 Artist Sit Htet aung/ (The Roots)
               </h3>
               <p>
@@ -549,7 +557,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-10 w-full">
-              <h3 className="text-yellow-400">Mai Ba Nyan</h3>
+              <h3 className="text-yellow-400 sec_header">Mai Ba Nyan</h3>
               <p>
                 his is the scene seen on February 4, 2024, when the military
                 council army bombed the monastery of Pangkylog village in Kuk
@@ -580,7 +588,7 @@ export default function Exhibition() {
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-20 pb-5 w-3/4">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Villagers in Nampheka observe the wreckage of a fighter jet that
                 was crashed down on December 12, 2023 by Kachin Independence
                 Army,
@@ -621,7 +629,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-10 w-full">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Demoso Township (Karannei), 4 July, 2023 by YAT (The Roots)
               </h3>
               <p>After dropping 2 of 500-pound to IDP Camp</p>
@@ -645,7 +653,7 @@ export default function Exhibition() {
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc text-right p-10 w-3/4">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 Kom Blai (The Roots) Lukumphra village, June 2023
               </h3>
               <p>
@@ -678,7 +686,7 @@ export default function Exhibition() {
             className={`flex items-end justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc text-center p-10 w-3/4">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 DKom Blai (The Roots) <br />
                 Lukumphra village, June 2023 
               </h3>
@@ -706,7 +714,7 @@ export default function Exhibition() {
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-10 w-2/3">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 Laiza (Mountainous Town), Kachin, October 2023 by Khun Lat
               </h3>
               <p>
@@ -736,7 +744,7 @@ export default function Exhibition() {
               className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
             >
               <div className="text-xl pt-5">
-                <h3 className="text-yellow-400">
+                <h3 className="text-yellow-400 sec_header">
                   WHEN WE SEE THE PLANES, WE STILL FEEL THE PAIN!
                 </h3>
                 <p className="mb-6">
@@ -826,7 +834,9 @@ export default function Exhibition() {
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-10 ">
-              <h3 className="text-yellow-400 mb-6">MRO-CHIN PEOPLE</h3>
+              <h3 className="text-yellow-400 sec_header mb-6">
+                MRO-CHIN PEOPLE
+              </h3>
               <p className="mb-8">
                 Mro (or Mru) are considered the most primal peoples who settled
                 in the valleys of Chin Hills. Their textiles have the most
@@ -838,17 +848,18 @@ export default function Exhibition() {
                 Similarly, Khami peoples live in the Northwest Rakhine state.
                 The Mro people live along the Chittagong Hills.
               </p>
-              <h3 className="text-yellow-400 mb-6">MRO-CHIN PEOPLE</h3>
+              <h3 className="text-yellow-400 sec_header mb-6">
+                AKHEN (MRO/MRU BREASTCOVERS)
+              </h3>
               <p className="mb-6">
-                Mro (or Mru) are considered the most primal peoples who settled
-                in the valleys of Chin Hills. Their textiles have the most
-                unusual patterns and only cover parts of their body. During the
-                migration of Tibeto-Burmans into the region, the Khumi-Khami-Mro
-                peoples ended up in the coastal rainforests near Bay of Bengal.
-                Over the past five centuries, the Khumi people began settling in
-                what is now known as Southwestern parts of Chin state.
-                Similarly, Khami peoples live in the Northwest Rakhine state.
-                The Mro people live along the Chittagong Hills.
+                AKHENS were used daily by the Mro women in the past. The
+                technical skills, level of concentration, and amount of time
+                needed to weave these textiles are incomprehensible even for the
+                current Khami-Khumi-Mro weavers. However, many Khami-Khumi-Mro
+                weavers still know the main technique of weaving these breast
+                covers, which is the supplementary single-faced weft patterning.
+                This technique allows the weavers to create patterns on only one
+                side of the fabric, leaving the unpatterned
               </p>
             </div>
           </div>
@@ -880,7 +891,7 @@ export default function Exhibition() {
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 pl-0 text-right w-4/5">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 Demoso Township (Karannei), 7 May 2023 by YAT (The Roots)
               </h3>
               <p>
@@ -913,7 +924,7 @@ export default function Exhibition() {
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd p-8 pb-10 pr-20 w-full">
-              <h3 className="text-yellow-400">
+              <h3 className="text-yellow-400 sec_header">
                 Si Ei village, 8th February 2024 by Kom Blai (The Roots)
               </h3>
               <p>
@@ -957,7 +968,9 @@ export default function Exhibition() {
               className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
             >
               <div className="text-xl pt-5">
-                <h3 className="text-yellow-400">Rebuilding Lives (2024)</h3>
+                <h3 className="text-yellow-400 sec_header">
+                  Rebuilding Lives (2024)
+                </h3>
                 <p className="mb-6">
                   This short life-affirming documentary weaves the stories of
                   two different refugees, Pi Ngun Hoi and Pu Tluang Cung, as
@@ -1036,7 +1049,7 @@ export default function Exhibition() {
             className={`flex items-center justify-end gap-5 h-full transition-all duration-1000 animation`}
           >
             <div className="artwork_desc bg_dropsd h-full p-16 w-1/2">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 Demoso Township (Karannei), 7 May 2023 by YAT (The Roots)
               </h3>
               <p>
@@ -1086,7 +1099,7 @@ export default function Exhibition() {
               className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation h-full`}
             >
               <div className="text-xl pt-5">
-                <h3 className="text-yellow-400 mb-6">Animation</h3>
+                <h3 className="text-yellow-400 sec_header mb-6">Animation</h3>
                 <p className="mb-6">
                   Our team created a short animated video to inform and mobilize
                   the public to participate in the Paper Plane Strike on the
@@ -1137,7 +1150,9 @@ export default function Exhibition() {
               className={`w-1/3 flex items-center justify-center gap-5 transition-all duration-1000 animation h-full`}
             >
               <div className="text-xl pt-5">
-                <h3 className="text-yellow-400 mb-6">MIRACLE CRASH</h3>
+                <h3 className="text-yellow-400 sec_header mb-6">
+                  MIRACLE CRASH
+                </h3>
                 <p className="mb-6">
                   In a land burdened with relentless suffering, where
                   individuals bear the weight of hardships beyond their years,
@@ -1191,7 +1206,7 @@ export default function Exhibition() {
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-8 w-1/2">
-              <h3 className="text-yellow-400 mb-6">
+              <h3 className="text-yellow-400 sec_header mb-6">
                 When We see the Planes, We see....
               </h3>
               <p className="mb-6">
@@ -1200,8 +1215,8 @@ export default function Exhibition() {
                 leave it on the sky wall to become part of a collective message
                 of hope and resilence.
               </p>
-              <h3 className="text-yellow-400">
-                When We see the Planes, We see....
+              <h3 className="text-yellow-400 sec_header">
+                FOLD WISH. REFLECT. FLY YOUR PLANE
               </h3>
             </div>
           </div>

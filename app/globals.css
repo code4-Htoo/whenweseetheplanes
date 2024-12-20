@@ -107,11 +107,16 @@ body {
     transform: translateY(0);
   }
 }
+
+
 .artwork_desc {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
 }
 
+.sec_header{
+  font-size: 26px;
+}
 .artwork_desc.bg_dropsd {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-color: #38383880;
