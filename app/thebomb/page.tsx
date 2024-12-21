@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -168,7 +169,23 @@ export default function Page() {
           className="w-full my-10"
         />
       </section>
-        
+      <section>
+        <div className="text-center my-10">
+          <Link
+            href="/exhibition"
+            className="inline-block bg-yellow-400 text-black py-4 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
+          >
+            Back to Exhibition
+          </Link>
+        </div>
+        <Image
+          src="/images/image-bomb.png"
+          width={1180}
+          height={788}
+          alt="The Bomb"
+          className="w-full"
+        />
+      </section>
     </div>
   );
 }

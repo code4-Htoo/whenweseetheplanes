@@ -1183,7 +1183,7 @@ export default function Exhibition() {
             />
             <Link
               href="/thebomb"
-              className="text-white text-2xl p-5 bg-yellow-400 rounded-xl hover:text-gray-300 transition-colors cursor-pointer"
+              className="text-white text-2xl py-4 px-6 inline-block bg-yellow-400 rounded-xl hover:text-gray-300 transition-colors"
             >
               see more
             </Link>
@@ -1258,6 +1258,13 @@ export default function Exhibition() {
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
+          <Image
+            src="/images/image-bomb.png"
+            width={1180}
+            height={788}
+            alt="The Bomb"
+            className="w-full mt-auto mb-0"
+          />
         </section>
       </div>
     </main>
