@@ -73,6 +73,8 @@ body {
 
 .bg-wrap {
   clip: rect(0, auto, auto, 0);
+  clip-path: inset(0 auto auto 0);
+  -webkit-clip-path: inset(0 auto auto 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -108,13 +110,12 @@ body {
   }
 }
 
-
 .artwork_desc {
   font-size: 20px;
   line-height: 30px;
 }
 
-.sec_header{
+.sec_header {
   font-size: 26px;
 }
 .artwork_desc.bg_dropsd {
