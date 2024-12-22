@@ -792,6 +792,23 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
+            <iframe
+              src="https://www.youtube.com/embed/vgeXegvoINM"
+              title="when we see the planes, we still feel the pain!"
+              style={{
+                border: "none",
+                width: "100%",
+                height: "100%",
+                aspectRatio: "16/9",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-auto flex gap-5">
             <Image
               src="/images/image-17.webp"
@@ -1008,8 +1025,8 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
             <iframe
-              src="https://www.youtube.com/embed/dTP8qD5reM0"
-              title="When we see the planes campaign"
+              src="https://www.youtube.com/embed/P6uVtFDvwn8"
+              title="Rebuilding Lives (2024)"
               style={{
                 border: "none",
                 width: "100%",
@@ -1123,8 +1140,8 @@ export default function Exhibition() {
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
             <iframe
-              src="https://www.youtube.com/embed/dTP8qD5reM0"
-              title="When we see the planes campaign"
+              src="https://www.youtube.com/embed/ljsbm3fSirc"
+              title="WHEN WE SEE THE PLANES"
               style={{
                 border: "none",
                 width: "100%",

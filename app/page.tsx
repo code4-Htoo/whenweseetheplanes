@@ -161,8 +161,8 @@ export default function Home() {
                   </p>
                   <div className="relative w-full max-w-[40vw] min-h-80 aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/u31qwQUeGuM"
-                      title="Placeholder video"
+                      src="https://www.youtube.com/embed/ljsbm3fSirc"
+                      title="WHEN WE SEE THE PLANES"
                       className="absolute top-0 left-0 w-full h-full"
                       style={{ border: "none" }}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -82,7 +82,7 @@ body {
   height: 100%;
   z-index: -1;
 }
-
+ 
 .animation {
   opacity: 0;
   transform: translateY(10%);
