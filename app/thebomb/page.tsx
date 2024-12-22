@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="max-w-screen-xl pt-20 px-32 mx-auto ">
+    <div className="max-w-screen-xl pt-4 md:pt-20 px-4 md:px-32 mx-auto ">
       <Image
         src="/images/image-36.png"
         width={1180}
         height={788}
         alt="The Bomb"
-        className="w-full mb-20"
+        className="w-full mb-6 md:mb-20"
       />
       <section className="text-lg">
-        <h2 className="text-yellow-400 text-8xl text-center">THE BOMB</h2>
+        <h2 className="text-yellow-400 text-6xl md:text-8xl text-center mb-6">THE BOMB</h2>
         <p className="mb-6">The idea</p>
         <p className="mb-6">
           While visiting the exhibition “When we see the planes” in Bangkok in

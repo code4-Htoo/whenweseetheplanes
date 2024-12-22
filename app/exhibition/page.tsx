@@ -30,9 +30,9 @@ export default function Exhibition() {
     return () => observer.disconnect();
   }, []);
   return (
-    <main className="relative w-full">
+    <main className="relative w-full px-4 md:p-0">
       <div className="fixed w-full h-screen bg-gray-900/25"></div>
-      <div className="max-w-6xl mx-auto pb-20 md:pb-32 min-h-screen h-screen snap-y snap-mandatory overflow-y-scroll">
+      <div className="max-w-full md:max-w-6xl mx-auto pb-20 md:pb-32 min-h-screen h-screen snap-y snap-mandatory overflow-y-scroll">
         {/* Welcome */}
         <section className="snap-center min-h-screen relative flex justify-center items-center">
           <h2 className="text-6xl text-center text-yellow-400 max-w-4xl">
@@ -40,10 +40,7 @@ export default function Exhibition() {
           </h2>
         </section>
         {/* Myawady */}
-        <section
-          className="snap-center min-h-screen relative flex pb-9 overflow-hidden"
-          id="target-section"
-        >
+        <section className="snap-center min-h-screen relative flex pb-9 overflow-hidden">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-01.webp"
@@ -54,9 +51,9 @@ export default function Exhibition() {
             />
           </div>
           <div
-            className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex flex-col md:flex-row justify-between md:items-end gap-5 mt-12 md:mt-auto md:mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 w-1/2">
+            <div className="artwork_desc bg_dropsd p-8 w-full md:w-1/2">
               <h3 className="text-yellow-400 sec_header">
                 Myawaddy Township (Karen State), 20 April By Zay Yar Minn
               </h3>
@@ -65,7 +62,7 @@ export default function Exhibition() {
                 friendship bridge.
               </p>
             </div>
-            <div className="artwork_desc bg_dropsd p-8 text-right w-1/2">
+            <div className="artwork_desc bg_dropsd p-8 text-right w-full md:w-1/2">
               <h3 className="text-yellow-400 sec_header">
                 Laiza (Mountainous Town)Kachin, October 2023 By Khun Lat
               </h3>
@@ -121,7 +118,7 @@ export default function Exhibition() {
           </div>
         </section>
         <section
-          className="snap-center min-h-screen relative flex pb-9 overflow-hidden"
+          className="snap-center min-h-screen relative flex pb-4 md:pb-9 overflow-hidden"
           id="target-section"
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
@@ -136,7 +133,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 text-right w-2/3">
+            <div className="artwork_desc p-8 text-right w-full md:w-2/3">
               <h3 className="text-yellow-400 sec_header">Loi Nam Pha Camp</h3>
               <p>
                 Waiting patiently for a hearty meal to receive. Conversations
@@ -163,25 +160,22 @@ export default function Exhibition() {
             />
           </div>
           <div
-            className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex items-end gap-5 mt-auto mb-5 md:mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 w-2/3">
-              <h3 className="text-yellow-400 sec_header">Loi Nam Pha Camp</h3>
+            <div className="artwork_desc bg_dropsd p-4 md:p-8 w-full md:w-2/3">
+              <h3 className="text-yellow-400 sec_header">
+                Pa say lar village, May 2023
+              </h3>
               <p>
-                Waiting patiently for a hearty meal to receive. Conversations
-                between them: &quot;when they see the jet fighter planes, they
-                point and say evil plane&quot;. &quot;when they see passenger
-                planes, they point and say its a good plane&quot;. They could
-                tell the different type of planes when an airplane is in the
-                sky.
+                Pa say lar village is one of the war zone villages and they are
+                building a hide out (bunker) knowing that they will get hit by
+                large bombs from Myanmar military. Almost Every household in
+                this village has a bunker underneath this house. sky.
               </p>
             </div>
           </div>
         </section>
-        <section
-          className="snap-center min-h-screen relative flex pb-9 overflow-hidden"
-          id="target-section"
-        >
+        <section className="snap-center min-h-screen relative flex pb-9 overflow-hidden">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/hha_03.webp"
@@ -192,9 +186,9 @@ export default function Exhibition() {
             />
           </div>
           <div
-            className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex items-end justify-end gap-5 mt-5 mb-auto md:mt-auto md:mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 text-right w-2/3">
+            <div className="artwork_desc p-8 text-right w-full md:w-2/3">
               <h3 className="text-yellow-400 sec_header">
                 Mese village, July 2023
               </h3>
@@ -210,10 +204,7 @@ export default function Exhibition() {
             </div>
           </div>
         </section>
-        <section
-          className="snap-center min-h-screen relative flex pb-9 overflow-hidden"
-          id="target-section"
-        >
+        <section className="snap-center min-h-screen relative flex pb-9 overflow-hidden">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/hha_04.webp"
@@ -226,7 +217,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 w-2/3">
+            <div className="artwork_desc bg_dropsd p-8 w-full md:w-2/3 ">
               <h3 className="text-yellow-400 sec_header">
                 Lukumpgra Village, June 2023
               </h3>
@@ -269,7 +260,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/des_01.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -277,7 +269,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 w-2/3">
+            <div className="artwork_desc bg_dropsd p-8 w-full md:w-2/3">
               <h3 className="text-yellow-400 sec_header">
                 Houses that were destroyed in the village of Sita,May 15, 2023
               </h3>
@@ -300,15 +292,16 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/des_02.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
           </div>
           <div
-            className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex items-end gap-5 mt-5 mb-auto md:mt-auto md:mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 w-2/3">
+            <div className="artwork_desc bg_dropsd p-8 w-full md:w-2/3">
               <h3 className="text-yellow-400 sec_header">
                 A child searching for tinsel in the ruins of a house that was
                 destroyed by the military council army. May 13, 2023
@@ -330,7 +323,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/des_03.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -338,7 +332,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 pb-10 pr-20 w-full">
+            <div className="artwork_desc bg_dropsd p-5 md:p-8 md:pb-10 md:pr-20 w-full">
               <h3 className="text-yellow-400 sec_header">
                 A woman fleeing the war returned after offering alms to the
                 village monastery, Si Mu Lai Village May 12, 2023
@@ -362,7 +356,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/des_04.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -370,11 +365,11 @@ export default function Exhibition() {
           <div
             className={`flex items-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 w-1/2">
+            <div className="artwork_desc p-4 md:p-8 w-full md:w-1/2">
               <h3 className="text-yellow-400 sec_header mb-5">
                 Artist: Hkun Li
               </h3>
-              <p>
+              <p className="text-justify md:text-left">
                 Another Tragic event. Military&apos;s airstrike on the civilians
                 in Kunglaw village, Kachin State, Many children are among the
                 deaths and casualties. The Myanmar military committed another
@@ -392,7 +387,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/hkn_01.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -402,7 +398,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/hkn_02.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -412,7 +409,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/hkn_03.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -425,7 +423,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/hkn_04.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -433,7 +432,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-10 w-full">
+            <div className="artwork_desc bg_dropsd p-4 md:p-10 w-full">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Artist: Nyein Chan Aung
               </h3>
@@ -469,7 +468,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/des_04.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -477,7 +477,7 @@ export default function Exhibition() {
           <div
             className={`flex items-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 w-1/2">
+            <div className="artwork_desc p-4 w-full md:p-8 md:w-1/2">
               <h3 className="text-yellow-400 sec_header mb-6">
                 On March 24, 2023, a military plane bombed Dor Ta Ma Gyi
                 Hospital in the eastern part of Demoso. Karenni state by YAT
@@ -499,7 +499,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-09.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -509,7 +510,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-10.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -522,15 +524,16 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-11.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
           </div>
           <div
-            className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex items-end gap-5 mt-5 mb-auto md:mt-auto md:mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-10 w-1/2">
+            <div className="artwork_desc p-4 w-full md:p-10 md:w-1/2">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Artist Sit Htet aung/ (The Roots)
               </h3>
@@ -548,7 +551,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-12.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -556,7 +560,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-10 w-full">
+            <div className="artwork_desc bg_dropsd p-5 md:p-10 w-full">
               <h3 className="text-yellow-400 sec_header">Mai Ba Nyan</h3>
               <p>
                 his is the scene seen on February 4, 2024, when the military
@@ -579,7 +583,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-13.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -587,7 +592,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-20 pb-5 w-3/4">
+            <div className="artwork_desc bg_dropsd p-5 md:p-20 md:pb-5 md:w-3/4 w-full">
               <h3 className="text-yellow-400 sec_header">
                 Villagers in Nampheka observe the wreckage of a fighter jet that
                 was crashed down on December 12, 2023 by Kachin Independence
@@ -606,27 +611,26 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-14.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
         </section>
 
-        <section
-          className="snap-center min-h-screen relative flex overflow-hidden"
-          id="target-section"
-        >
+        <section className="snap-center min-h-screen relative flex overflow-hidden">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/yat_02.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
           </div>
           <div
-            className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            className={`flex items-end gap-5 mt-auto mb-5 md:mb-0 transition-all duration-1000 animation`}
           >
             <div className="artwork_desc p-10 w-full">
               <h3 className="text-yellow-400 sec_header">
@@ -644,7 +648,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/hha_05.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -652,7 +657,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc text-right p-10 w-3/4">
+            <div className="artwork_desc text-right w-full p-4 md:p-10 md:w-3/4">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Kom Blai (The Roots) Lukumphra village, June 2023
               </h3>
@@ -677,7 +682,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/hha_06.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -685,7 +691,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc text-center p-10 w-3/4">
+            <div className="artwork_desc text-center p-10 md:w-3/4 w-full">
               <h3 className="text-yellow-400 sec_header mb-6">
                 DKom Blai (The Roots) <br />
                 Lukumphra village, June 2023 
@@ -705,7 +711,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-15.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -713,7 +720,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end  justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-10 w-2/3">
+            <div className="artwork_desc md:p-10 md:w-2/3 w-full p-5">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Laiza (Mountainous Town), Kachin, October 2023 by Khun Lat
               </h3>
@@ -732,13 +739,14 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-16.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
         </section>
-        <section className="snap-center min-h-screen relative flex">
+        <section className="snap-start min-h-screen relative md:flex hidden">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <div
               className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
@@ -791,6 +799,79 @@ export default function Exhibition() {
             </div>
           </div>
         </section>
+        <section className="snap-start min-h-screen relative flex md:hidden">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <div
+              className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            >
+              <div className="text-xl pt-5">
+                <h3 className="text-yellow-400 sec_header">
+                  WHEN WE SEE THE PLANES, WE STILL FEEL THE PAIN!
+                </h3>
+                <p className="mb-6">
+                  This short experimental film combines performance art, video
+                  art, and interviews to portray the feeling of pain that people
+                  experience due to the brutal airstrikes back home in
+                  Burma/Myanmar. Although the artists have not personally
+                  experienced attacks from fighter jets, they have dreamt about
+                  these horrific scenes after working with raw footage from the
+                  frontlines. As such, archival audio from the ground becomes
+                  the sonic landscape in this film. At its core, this artwork is
+                  born out of the artists’ desire to face their own nightmares. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="snap-start min-h-screen relative flex md:hidden">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <div
+              className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            >
+              <div className="text-xl pt-5">
+                <p className="mb-6">
+                  Visually, the artists relied upon Butoh, animism, and
+                  historical material culture such as antique textiles to weave
+                  between the borderlands of fear and hope. There are two main
+                  beings in this work, the green ghost and the white spirit.
+                  Back home, people believe that when a person dies from
+                  unnatural and violent deaths, their spirits get trapped in our
+                  world, lingering as vengeful green ghosts. Building upon this
+                  traditional belief, greenness becomes omnipresent in this
+                  film, inviting the viewers to be haunted. The white spirit
+                  represents the next generation. Even those who are yet to
+                  enter this world are terrified of the airstrikes. The young
+                  artist expresses this sense of foreboding fear through the
+                  contemporary Japanese dance, Butoh. The mask shields the
+                  identity of the young artist. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="snap-start min-h-screen relative flex md:hidden">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <div
+              className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
+            >
+              <div className="text-xl pt-5">
+                <p className="mb-6">
+                  Connecting these two beings are the antique textiles with
+                  airplane patterns from Mru communities (also known as
+                  Rakhine-Chin) that live near the border of Myanmar and
+                  Bangladesh. In the 1990s, the Myanmar Military (or Tatmadaw)
+                  encountered the Mru tribes during their clearance operation
+                  against the Rohingya people. Being minorities among
+                  minorities, the Mru people experienced the worst oppression
+                  from the military government. Their traditional textiles were
+                  banned and burned because the soldiers deemed their fashion
+                  too revealing and primitive. The few that remain found their
+                  way to the filmmaker and into this film.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto w-full h-full flex gap-10">
             <iframe
@@ -808,21 +889,43 @@ export default function Exhibition() {
             ></iframe>
           </div>
         </section>
-        <section className="snap-center min-h-screen relative flex items-center">
-          <div className="max-w-6xl mx-auto w-full h-auto flex gap-5">
+        <section className="snap-center min-h-screen relative hidden md:flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-row gap-5">
             <Image
               src="/images/image-17.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-1/2 h-auto"
+              className="md:w-1/2 w-full h-auto"
             />
             <Image
               src="/images/image-18.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-1/2 h-auto"
+              className="md:w-1/2 w-full h-auto"
+            />
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative md:hidden flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-row gap-5">
+            <Image
+              src="/images/image-17.webp"
+              width={1920}
+              height={1000}
+              alt="background Image"
+              className="w-full h-auto"
+            />
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative md:hidden flex items-center">
+          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-row gap-5">
+            <Image
+              src="/images/image-18.webp"
+              width={1920}
+              height={1000}
+              alt="background Image"
+              className=" w-full h-auto"
             />
           </div>
         </section>
@@ -844,7 +947,7 @@ export default function Exhibition() {
               width={1176}
               height={784}
               alt="background Image"
-              className="fixed-bg !h-auto !top-2/3 !-translate-y-1/2 !-translate-x-1/2"
+              className="fixed-bg !h-auto top-1/2 md:!top-2/3 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
           <div
@@ -885,7 +988,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-21.webp"
-              fill
+              width={1176}
+              height={784}
               alt="background Image"
               className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -907,7 +1011,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 pl-0 text-right w-4/5">
+            <div className="artwork_desc p-8 pl-0 text-right w-full md:w-4/5">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Demoso Township (Karannei), 7 May 2023 by YAT (The Roots)
               </h3>
@@ -932,7 +1036,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
               src="/images/image-22.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg"
             />
@@ -940,7 +1045,7 @@ export default function Exhibition() {
           <div
             className={`flex items-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd p-8 pb-10 pr-20 w-full">
+            <div className="artwork_desc bg_dropsd p-4 md:p-8 md:pb-10 md:pr-20 w-full">
               <h3 className="text-yellow-400 sec_header">
                 Si Ei village, 8th February 2024 by Kom Blai (The Roots)
               </h3>
@@ -984,8 +1089,8 @@ export default function Exhibition() {
             <div
               className={`flex items-center justify-center gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
             >
-              <div className="text-xl pt-5">
-                <h3 className="text-yellow-400 sec_header">
+              <div className="md:text-xl text-sm pt-5">
+                <h3 className="text-yellow-400 sec_header mb-4">
                   Rebuilding Lives (2024)
                 </h3>
                 <p className="mb-6">
@@ -1043,7 +1148,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-25.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -1065,7 +1171,7 @@ export default function Exhibition() {
           <div
             className={`flex items-center justify-end gap-5 h-full transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc bg_dropsd h-full p-16 w-1/2">
+            <div className="artwork_desc bg_dropsd h-full md:p-16 md:w-1/2 w-full p-4">
               <h3 className="text-yellow-400 sec_header mb-6">
                 Demoso Township (Karannei), 7 May 2023 by YAT (The Roots)
               </h3>
@@ -1083,20 +1189,20 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
-          <div className="max-w-6xl mx-auto w-full h-auto flex gap-10">
+          <div className="max-w-6xl mx-auto w-full h-auto flex md:flex-row flex-col gap-10">
             <Image
               src="/images/image-27.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-2/3 h-auto"
+              className="md:w-2/3 w-full h-auto"
             />
             <Image
               src="/images/image-28.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-1/3 h-auto"
+              className="md:w-1/3 w-full h-auto"
             />
           </div>
         </section>
@@ -1104,7 +1210,8 @@ export default function Exhibition() {
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
             <Image
               src="/images/image-29.webp"
-              fill
+              width={1900}
+              height={1000}
               alt="background Image"
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
@@ -1155,7 +1262,7 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
-          <div className="max-w-6xl mx-auto w-full h-auto flex justify-center items-center gap-10">
+          <div className="max-w-6xl mx-auto w-full h-auto flex md:flex-row flex-col justify-center items-center gap-10">
             <Image
               src="/images/image-30.webp"
               width={1920}
@@ -1164,7 +1271,7 @@ export default function Exhibition() {
               className="w-auto h-auto max-h-screen"
             />
             <div
-              className={`w-1/3 flex items-center justify-center gap-5 transition-all duration-1000 animation h-full`}
+              className={`w-full md:w-1/3 flex items-center justify-center gap-5 transition-all duration-1000 animation h-full`}
             >
               <div className="text-xl pt-5">
                 <h3 className="text-yellow-400 sec_header mb-6">
@@ -1190,17 +1297,17 @@ export default function Exhibition() {
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto relative w-full flex justify-center items-center flex-col">
-            <h3 className="text-yellow-400 text-8xl text-center">THE BOMB</h3>
+            <h3 className="text-yellow-400 md:text-8xl text-6xl text-center">THE BOMB</h3>
             <Image
               src="/images/bomb.png"
               width={1920}
               height={1000}
               alt="background Image"
-              className="-mt-20"
+              className="-mt-5 md:-mt-20"
             />
             <Link
               href="/thebomb"
-              className="text-white text-2xl py-4 px-6 inline-block bg-yellow-400 rounded-xl hover:text-gray-300 transition-colors"
+              className="text-white text-xl md:text-2xl py-4 px-6 inline-block bg-yellow-400 rounded-xl hover:text-gray-300 transition-colors"
             >
               see more
             </Link>
@@ -1222,11 +1329,11 @@ export default function Exhibition() {
           <div
             className={`flex items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation`}
           >
-            <div className="artwork_desc p-8 w-1/2">
-              <h3 className="text-yellow-400 sec_header mb-6">
+            <div className="artwork_desc md:p-8 md:w-1/2 p-0 w-full">
+              <h3 className="text-yellow-400 sec_header mb-2 md:mb-6">
                 When We see the Planes, We see....
               </h3>
-              <p className="mb-6">
+              <p className="mb-2 md:mb-6">
                 Choose a color that represents your feelings about the situation
                 in Myanmar. Follow the instructions to fold a paper airplane and
                 leave it on the sky wall to become part of a collective message
@@ -1249,20 +1356,20 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
-          <div className="max-w-6xl mx-auto w-full h-auto flex gap-5">
+          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-ro gap-5">
             <Image
               src="/images/image-33.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-1/2 h-auto"
+              className="w-full md:w-1/2 h-auto"
             />
             <Image
               src="/images/image-34.webp"
               width={1920}
               height={1000}
               alt="background Image"
-              className="w-1/2 h-auto"
+              className="w-full md:w-1/2 h-auto"
             />
           </div>
         </section>
