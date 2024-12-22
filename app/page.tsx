@@ -130,9 +130,9 @@ export default function Home() {
                 width={1600}
                 height={500}
                 priority
-                className="absolute bottom-0 w-[90vw] h-auto"
+                className="absolute bottom-0 w-full h-auto"
               />
-              <div className="absolute z-10 w-full h-full text-center flex items-center justify-center">
+              <div className="absolute z-10 w-full h-full text-center flex items-center justify-center">  
                 <Image
                   src="/images/page-03.png"
                   alt="Impact of Airstrikes"
