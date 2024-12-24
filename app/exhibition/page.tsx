@@ -467,7 +467,7 @@ export default function Exhibition() {
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
             <Image
-              src="/images/des_04.webp"
+              src="/images/yat_01.webp"
               width={1900}
               height={1000}
               alt="background Image"
@@ -495,28 +495,6 @@ export default function Exhibition() {
             </div>
           </div>
         </section>
-        <section className="snap-center min-h-screen relative flex">
-          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
-            <Image
-              src="/images/image-09.webp"
-              width={1900}
-              height={1000}
-              alt="background Image"
-              className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
-            />
-          </div>
-        </section>
-        <section className="snap-center min-h-screen relative flex">
-          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
-            <Image
-              src="/images/image-10.webp"
-              width={1900}
-              height={1000}
-              alt="background Image"
-              className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
-            />
-          </div>
-        </section>
         <section
           className="snap-center min-h-screen relative flex overflow-hidden"
           id="target-section"
@@ -542,6 +520,17 @@ export default function Exhibition() {
                 in Karen State. April,26,2023
               </p>
             </div>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <Image
+              src="/images/image-09.webp"
+              width={1900}
+              height={1000}
+              alt="background Image"
+              className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
+            />
           </div>
         </section>
         <section
@@ -574,6 +563,17 @@ export default function Exhibition() {
                 monastery and houses have not been rebuilt.
               </p>
             </div>
+          </div>
+        </section>
+        <section className="snap-center min-h-screen relative flex">
+          <div className="bg-wrap max-w-6xl mx-auto relative w-full">
+            <Image
+              src="/images/image-10.webp"
+              width={1900}
+              height={1000}
+              alt="background Image"
+              className="fixed-bg !h-auto !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
+            />
           </div>
         </section>
         <section
@@ -1073,6 +1073,13 @@ export default function Exhibition() {
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
+          <div className="flex w-full items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation visible">
+            <div className="artwork_desc p-8 text-right w-full md:w-2/3">
+              <h3 className="text-yellow-400 sec_header">
+                Artist By Edo Vader
+              </h3>
+            </div>
+          </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="bg-wrap max-w-6xl mx-auto relative w-full">
@@ -1154,9 +1161,14 @@ export default function Exhibition() {
               className="fixed-bg object-contain !top-1/2 !-translate-y-1/2 !-translate-x-1/2"
             />
           </div>
+          <div className="flex w-full items-end justify-end gap-5 mt-auto mb-0 transition-all duration-1000 animation visible">
+            <div className="artwork_desc p-8 text-right w-full md:w-2/3">
+              <h3 className="text-yellow-400 sec_header">Artist By Mg Phoe</h3>
+            </div>
+          </div>
         </section>
         <section
-          className="snap-center min-h-screen relative flex overflow-hidden"
+          className="snap-center min-h-screen relative flex md:items-center overflow-hidden"
           id="target-section"
         >
           <div className="bg-wrap max-w-6xl mx-auto relative w-full h-full">
@@ -1173,17 +1185,17 @@ export default function Exhibition() {
           >
             <div className="artwork_desc bg_dropsd h-full md:p-16 md:w-1/2 w-full p-4">
               <h3 className="text-yellow-400 sec_header mb-6">
-                Demoso Township (Karannei), 7 May 2023 by YAT (The Roots)
+                “When we see the planes…” Artists: Mg Phoe - Tamalar - Edo Vader
+                - Saw Tun
               </h3>
               <p>
-                The refugees flash light to spider on the wall as they hide in
-                the natural cave to shield from the air strike near Demoso
-                township, Karenni state, Myanmar in May 7, 2023. (Data to
-                update) Report documents 2,471 airstrikes, resulting in at least
-                1,295 deaths since February 2021 coup. Myanmar junta airstrikes
-                killed over 359 civilians, including 61 children, and injured
-                756 others in the first four months of 2024, according to a
-                recent report.
+                Today in Myanmar, a group of war criminals are oppressing and
+                killing citizens in order to satisfy their own greed. All
+                civilian areas including schools, hospitals and religious
+                buildings are brutally attacked by airstrikes everyday. Many
+                people had to flee their homes. Many deaths and injuries
+                occurred.  The four artists illustrated this painting about
+                social disaster.
               </p>
             </div>
           </div>
@@ -1297,7 +1309,9 @@ export default function Exhibition() {
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
           <div className="max-w-6xl mx-auto relative w-full flex justify-center items-center flex-col">
-            <h3 className="text-yellow-400 md:text-8xl text-6xl text-center">THE BOMB</h3>
+            <h3 className="text-yellow-400 md:text-8xl text-6xl text-center">
+              THE BOMB
+            </h3>
             <Image
               src="/images/bomb.png"
               width={1920}
@@ -1356,7 +1370,7 @@ export default function Exhibition() {
           </div>
         </section>
         <section className="snap-center min-h-screen relative flex items-center">
-          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-ro gap-5">
+          <div className="max-w-6xl mx-auto w-full h-auto flex flex-col md:flex-row gap-5">
             <Image
               src="/images/image-33.webp"
               width={1920}

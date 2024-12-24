@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -41,7 +42,7 @@ export default function Home() {
             {/* First Slide: Hero Section with GIF */}
             <section className="w-full h-screen flex items-center justify-center max-w-screen-xl mx-auto">
               <motion.div
-                className="w-full max-w-[90vw] cursor-pointer"
+                className="w-full max-w-[1200px] cursor-pointer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={toggleEye}
@@ -51,7 +52,6 @@ export default function Home() {
                   alt="Interactive Eye"
                   width={1200}
                   height={1200}
-                  unoptimized
                   className="w-full h-auto"
                   priority
                 />
@@ -59,23 +59,23 @@ export default function Home() {
             </section>
 
             {/* Second Slide: Full Poster Image and Description */}
-            <section className="w-full flex md:flex-row flex-col items-center justify-center  max-w-[90vw] mx-auto md:space-x-[3vw] space-y-[3vw]">
+            <section className="w-full flex md:flex-row flex-col items-center justify-center max-w-screen-xl mx-auto md:space-x-5 space-y-5">
               {/* Left side - Full Poster */}
-              <div className="w-full lg:w-[45vw]">
+              <div className="w-full lg:w-1/2">
                 <Image
                   src="/images/poster-02.png"
                   alt="Exhibition Poster"
                   width={500}
                   height={700}
-                  layout="responsive"
+                  className="w-full h-auto"
                 />
               </div>
               {/* Right side - Description */}
-              <div className="w-full lg:w-[45vw] flex items-center justify-center">
-                <div className="pl-[5vw]">
-                  <div className="space-y-[2vw]">
+              <div className="w-full lg:w-1/2 flex items-center justify-center">
+                <div className="pl-16">
+                  <div className="space-y-8 md:space-y-10 lg:space-y-15 max-w-2xl">
                     <motion.p
-                      className="text-[1.35vw] leading-relaxed font-mono text-justify"
+                      className="text-[1.15rem] leading-relaxed font-mono text-justify"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.2 }}
@@ -85,7 +85,7 @@ export default function Home() {
                       is wondrous, and to appreciate human creativity.
                     </motion.p>
                     <motion.p
-                      className="text-[1.35vw] leading-relaxed font-mono text-justify"
+                      className="text-[1.15rem] leading-relaxed font-mono text-justify"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4 }}
@@ -97,8 +97,9 @@ export default function Home() {
                       cries of the many forced to flee their homes and hide from
                       the bombs -
                     </motion.p>
+
                     <motion.p
-                      className="text-[1.35vw] leading-relaxed font-mono text-justify"
+                      className="text-[1.15rem] leading-relaxed font-mono text-justify"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.6 }}
@@ -107,14 +108,15 @@ export default function Home() {
                       brutalized and destroyed, that are the civilians forced.
                     </motion.p>
                   </div>
-                </div>
+                </div>{" "}
+                {/* Vertical Text */}
                 <motion.div
-                  className="w-[6vw] flex items-center justify-center rotate-90"
+                  className="w-24 flex items-center justify-center rotate-90"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.8 }}
                 >
-                  <h2 className="text-yellow-400 text-[2vw] tracking-[0.08em] whitespace-nowrap font-mono font-extrabold origin-center">
+                  <h2 className="text-yellow-400 text-[2.5rem] tracking-[0.08em] whitespace-nowrap font-mono font-extrabold origin-center">
                     WHEN WE SEE THE PLANES
                   </h2>
                 </motion.div>
@@ -122,48 +124,49 @@ export default function Home() {
             </section>
 
             {/* Third Slide: Impact Section */}
-            <section className="w-full relative max-w-[100vw] mx-auto -mt-[5vw]">
+            <section className="w-full relative max-w-[1600px] mx-auto">
               {/* Background Image */}
-              <Image
+              {/*<Image
                 src="/images/fire-bg.png"
                 alt="Background"
                 width={1600}
                 height={500}
                 priority
-                className="absolute bottom-0 w-full h-auto"
-              />
-              <div className="absolute z-10 w-full h-full text-center flex items-center justify-center">  
+                className="absolute bottom-0 w-auto h-auto"
+              />*/}
+              <div className="hidden md:flex absolute z-10 w-full h-full text-center items-center justify-center">
                 <Image
                   src="/images/page-03.png"
                   alt="Impact of Airstrikes"
-                  width={900}
-                  height={900}
-                  className="w-[80vw] h-auto"
+                  width={1500}
+                  height={1000}
+                  className="w-full h-full object-cover"
                 />
               </div>
               {/* Text Content */}
-              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-[5vw] pt-[15vw] pb-[2vw] text-center">
+              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-16 pt-20 md:pt-52 pb-32">
+                {/* Overlaid Content */}
                 <motion.div
-                  className="max-w-[50vw] space-y-[2vw] text-center flex flex-col items-center justify-center"
+                  className="max-w-4xl space-y-3 text-center"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <h2 className="text-[3vw] font-bold text-blue-600 font-mono mb-[1vw]">
+                  <h2 className="text-[2.5rem] font-bold text-blue-600 font-mono mb-2">
                     THE IMPACT OF AIRSTRIKES
                   </h2>
-                  <p className="text-[1.5vw] leading-relaxed font-mono text-justify text-black mb-[1vw]">
+                  <p className="text-[1.35rem] leading-relaxed font-mono text-justify text-white mb-2 w-full">
                     After the coup, the military regime has deliberately and
                     repeatedly targeted civilians with air strikes, in violation
                     with the laws of war. From February 2021 to December 2023,
                     there were 1625 airstrikes, meaning an uninterrupted string
                     of daily airstrikes on civilian targets.
                   </p>
-                  <div className="relative w-full max-w-[40vw] min-h-80 aspect-video">
+                  <div className="relative w-full aspect-video">
                     <iframe
                       src="https://www.youtube.com/embed/ljsbm3fSirc"
                       title="WHEN WE SEE THE PLANES"
-                      className="absolute top-0 left-0 w-full h-full"
+                      className="w-full md:h-[400px] h-80"
                       style={{ border: "none" }}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       referrerPolicy="strict-origin-when-cross-origin"
@@ -173,6 +176,8 @@ export default function Home() {
                 </motion.div>
               </div>
             </section>
+            {/* Footer */}
+            {/*<Footer />*/}
           </motion.div>
         )}
       </AnimatePresence>
