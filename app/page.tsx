@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import Footer from "./components/Footer";
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -176,8 +175,6 @@ export default function Home() {
                 </motion.div>
               </div>
             </section>
-            {/* Footer */}
-            {/*<Footer />*/}
           </motion.div>
         )}
       </AnimatePresence>
