@@ -151,16 +151,6 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <h2 className="text-[2.5rem] font-bold text-blue-600 font-mono mb-2">
-                    THE IMPACT OF AIRSTRIKES
-                  </h2>
-                  <p className="text-[1.35rem] leading-relaxed font-mono text-justify text-white mb-2 w-full">
-                    After the coup, the military regime has deliberately and
-                    repeatedly targeted civilians with air strikes, in violation
-                    with the laws of war. From February 2021 to December 2023,
-                    there were 1625 airstrikes, meaning an uninterrupted string
-                    of daily airstrikes on civilian targets.
-                  </p>
                   <div className="relative w-full aspect-video">
                     <iframe
                       src="https://www.youtube.com/embed/ljsbm3fSirc"
@@ -172,6 +162,16 @@ export default function Home() {
                       allowFullScreen
                     ></iframe>
                   </div>
+                  <h2 className="text-[2.5rem] font-bold text-blue-600 font-mono mb-2">
+                    THE IMPACT OF AIRSTRIKES
+                  </h2>
+                  <p className="text-[1.35rem] leading-relaxed font-mono text-justify text-white mb-2 w-full">
+                    After the coup, the military regime has deliberately and
+                    repeatedly targeted civilians with air strikes, in violation
+                    with the laws of war. From February 2021 to December 2023,
+                    there were 1625 airstrikes, meaning an uninterrupted string
+                    of daily airstrikes on civilian targets.
+                  </p>
                 </motion.div>
               </div>
             </section>
