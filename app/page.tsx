@@ -177,7 +177,23 @@ export default function Home() {
             </section>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence>{" "}
+      <div className="flex justify-center mt-8">
+        <a
+          href="/path/to/your/pdf/document.pdf"
+          download
+          className="bg-yellow-600 text-white px-6 py-3 rounded-lg font-mono text-lg hover:bg-yellow-700 transition-colors"
+        >
+          Download PDF
+        </a>
+      </div>
+      <Image
+        src="/images/image-bomb.png"
+        width={1180}
+        height={788}
+        alt="The Bomb"
+        className="w-full mt-auto mb-0"
+      />
     </div>
   );
 }

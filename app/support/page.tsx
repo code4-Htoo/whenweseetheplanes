@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import DonateButton from "../components/DonateButton";
 export default function Support() {
   return (
     <div className="flex flex-col min-h-screen justify-center items-center md:px-0 px-1">
@@ -21,9 +21,10 @@ export default function Support() {
             change, uplifts communities, and builds a new Burma. Join us in
             supporting this cause. Every contribution makes a difference.
           </p>
-          <button className="bg-yellow-400 text-black px-6 py-3 rounded-full text-lg font-bold hover:bg-yellow-300 transition-colors">
+          {/*<button className="bg-yellow-400 text-black px-6 py-3 rounded-full text-lg font-bold hover:bg-yellow-300 transition-colors">
             Donate Now
-          </button>
+          </button>*/}
+          <DonateButton />
         </div>
 
         {/* Fixed footer */}
