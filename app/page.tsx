@@ -143,7 +143,7 @@ export default function Home() {
                 />
               </div>
               {/* Text Content */}
-              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-16 pt-20 md:pt-52 pb-32">
+              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-5 pt-5 pb-4 md:px-16 md:pt-52 md:pb-32">
                 {/* Overlaid Content */}
                 <motion.div
                   className="max-w-4xl space-y-3 text-center"
@@ -180,7 +180,7 @@ export default function Home() {
       </AnimatePresence>{" "}
       <div className="flex justify-center mt-8">
         <a
-          href="/path/to/your/pdf/document.pdf"
+          href="/dummy.pdf"
           download
           className="bg-yellow-600 text-white px-6 py-3 rounded-lg font-mono text-lg hover:bg-yellow-700 transition-colors"
         >
