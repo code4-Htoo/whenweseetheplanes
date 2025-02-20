@@ -143,7 +143,7 @@ export default function Home() {
                 />
               </div>
               {/* Text Content */}
-              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-5 pt-5 pb-4 md:px-16 md:pt-52 md:pb-32">
+              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-16 pt-5 pb-4 md:pt-52 md:pb-32">
                 {/* Overlaid Content */}
                 <motion.div
                   className="max-w-4xl space-y-3 text-center"
@@ -165,7 +165,7 @@ export default function Home() {
                   <h2 className="text-[2.5rem] font-bold text-blue-600 font-mono mb-2">
                     THE IMPACT OF AIRSTRIKES
                   </h2>
-                  <p className="text-[1.35rem] leading-relaxed font-mono text-justify text-white mb-2 w-full">
+                  <p className="text-[1.35rem] leading-relaxed font-mono text-white mb-2 w-full">
                     After the coup, the military regime has deliberately and
                     repeatedly targeted civilians with air strikes, in violation
                     with the laws of war. From February 2021 to December 2023,
